@@ -1,0 +1,30 @@
+.sidebar {
+    padding: 50px 20px;
+
+    display: grid;
+    grid-template-rows: 1fr auto ;
+    grid-gap: 20px;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    width: 59px;
+    height: 20px;
+    top: 895px;
+    left: 85px;
+
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    cursor: pointer;
+
+    color: #E5613E;
+
+    margin-top: 20rem;
+}

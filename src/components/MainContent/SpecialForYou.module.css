@@ -1,0 +1,31 @@
+.special {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.special p:nth-child(1) {
+    font-family: var(--main-font);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.special p:nth-child(2) {
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #0790FF;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,55 @@
+.card {
+    /* width: 676px; */
+    height: 320px;
+    top: 112px;
+    left: 319px;
+    border-radius: 30px;
+
+    background: linear-gradient(139.54deg, #0790FF 0%, #0D0D0D 25%, #0D0D0D 75%, #0790FF 100%);
+    color: white;
+}
+
+.card h1 {
+    margin: 0;
+    width: 326px;
+    height: 96px;
+    top: 155px;
+    left: 364px;
+
+    padding: 3rem 0 0 3rem;
+
+    font-family: var(--main-font);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.card p {
+    max-width: 250px;
+
+    padding: 0 0 0 3rem;
+}
+
+.card button {
+    width: 170px;
+    height: 50px;
+    top: 335px;
+    left: 364px;
+    border-radius: 12px;
+    background: #0790FF;
+
+    margin: 0 0 0 3rem;
+
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.005em;
+    text-align: center;
+
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}

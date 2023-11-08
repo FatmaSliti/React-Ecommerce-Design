@@ -1,0 +1,17 @@
+.top {
+    display: flex;
+    justify-content: space-between;
+
+    /* width: 675px; */
+    height: 40px;
+    top: 40px;
+    left: 319px;
+}
+
+.top .leftSide,
+.top .rightSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
