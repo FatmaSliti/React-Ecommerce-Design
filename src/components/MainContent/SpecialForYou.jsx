@@ -14,7 +14,7 @@ const SpecialForYou = () => {
                 <SpecialCard image={Image} title='Mouse x1' price='$543' />
                 <SpecialCard image={Image} title='Headphone' price='$323' />
                 <SpecialCard image={Image} title='Headphone' price='$323' />
-                <SpecialCard image={Image} title='Headphone' price='$323' />
+                {/* <SpecialCard image={Image} title='Headphone' price='$323' /> */}
             </div>
         </>
     )

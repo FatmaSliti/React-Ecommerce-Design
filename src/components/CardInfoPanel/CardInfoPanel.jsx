@@ -1,11 +1,16 @@
 import PaymentCard from "./PaymentCard"
 
+import styles from './CardInfoPanel.module.css';
+import YourCart from "./YourCart";
 
 
 const CardInfoPanel = () => {
     return (
         <>
-            <PaymentCard />
+            <div className={styles.infoPanel}>
+                <PaymentCard />
+                <YourCart />
+            </div>
         </>
     )
 }

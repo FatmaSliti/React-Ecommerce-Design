@@ -1,0 +1,82 @@
+.yourCart {
+    padding: 0 20px;
+}
+
+.yourCart p:nth-child(1) {
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin: 0;
+}
+
+.yourCart p:nth-child(2) {
+    font-family: var(--main-font);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #828282;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.total {}
+
+.topTotal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.total p:nth-child(1) {
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    
+}
+
+.total p:nth-child(2) {
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    text-align: right;
+
+    color: #08080A;
+}
+
+.total button {
+    width: 224px;
+    height: 58px;
+    top: 889px;
+    left: 1123px;
+    border-radius: 12px;
+    border: none;
+
+    background: #0790FF;
+    color: white;
+
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.005em;
+    text-align: center;
+
+    cursor: pointer;
+}

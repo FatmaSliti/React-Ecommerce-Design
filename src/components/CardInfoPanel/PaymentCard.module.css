@@ -1,21 +1,19 @@
 .payment {
-    margin: 30px 20px;
+    margin: 30px 20px 0;
 }
 
 .payment img {
-    width: 240px;
     height: 227px;
     top: 124px;
     left: 1064px;
     border: 1px;
-
 }
 
 .payment p {
     font-family: var(--main-font);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: left;
+    margin: 0 0 30px 0;
 }
