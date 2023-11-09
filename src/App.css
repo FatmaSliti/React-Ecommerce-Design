@@ -12,6 +12,6 @@
 
 @media (max-width: 768px) {
   .appContainer {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }

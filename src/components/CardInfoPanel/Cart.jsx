@@ -12,14 +12,14 @@ function Cart({ image, title, price }) {
                     <p>{price}</p>
                 </div>
             </div>
-            <p className={styles.rightSide}>
+            <div className={styles.rightSide}>
                 <img src={dot} alt="" className={styles.dot} />
                 <div className={styles.calcul} >
                     <button>-</button>
-                    <span>01</span>
+                    <div>01</div>
                     <button>+</button>
                 </div>
-            </p>
+            </div>
         </div>
     )
 }

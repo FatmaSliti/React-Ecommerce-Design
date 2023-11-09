@@ -3,9 +3,10 @@
 }
 
 .payment img {
-    height: 227px;
-    top: 124px;
-    left: 1064px;
+    /* height: 280px; */
+    width: 300px;
+    /* top: 124px;
+    left: 1064px; */
     border: 1px;
 }
 
