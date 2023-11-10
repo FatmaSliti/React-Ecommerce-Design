@@ -1,4 +1,4 @@
-## Demo
+## Eshop Clone (Work in progress: refining responsiveness, adding animations, and transforming into a live site)
 
 Check out the live demo of the [Eshop Clone](https://react-ecommerce-design.vercel.app/).
 
