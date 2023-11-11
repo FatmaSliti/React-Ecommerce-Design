@@ -1,20 +1,22 @@
 import './App.css'
 import CardInfoPanel from './components/CardInfoPanel/CardInfoPanel'
 import MainContent from './components/MainContent/MainContent'
-import SideBar from './components/sideBar/SideBar'
+
+import MainMenu from './components/sideBar/mainMenu'
+
+export default App
 
 function App() {
   return (
-    <div className='appContainer'>
+    <div className=''>
       <div>
-        <SideBar />
+        <MainMenu />
       </div>
-      <div>
+      {/* <div>
         <MainContent />
       </div>
-      <CardInfoPanel />
+      <CardInfoPanel /> */}
     </div>
   )
 }
 
-export default App

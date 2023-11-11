@@ -1,0 +1,39 @@
+.profileContainer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* background-color: #cdb4db; */
+    background-color: #cbe5fb;
+
+    /* min-height: 70vh; */
+    width: 50vw;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.sectionTitle {
+    color: #333;
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+li {
+    list-style: none;
+}
+
+.profileImage {
+    width: 300px;
+}
+
+.profileName {
+    font-size: 20px;
+    
+}

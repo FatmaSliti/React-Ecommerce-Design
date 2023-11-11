@@ -4,6 +4,12 @@
 
 .menu li {
     list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #828282;
 }
 
 .element img {
@@ -28,11 +34,17 @@
     cursor: pointer;
 
     color: #828282;
-    ;
 
-    Width: 239px;
+    Width: 210px;
     Height: 54px;
     padding: 0 0 0 10px;
+}
+
+.element:hover {
+    background-color: #f8f4f4;
+    /* width: 210px; */
+    /* height: 44px; */
+    border-radius: 12px;
 }
 
 .dashboard {
