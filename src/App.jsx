@@ -12,11 +12,6 @@ function App() {
       <div>
         <MainMenu />
       </div>
-      {/* <div>
-        <MainContent />
-      </div>
-      <CardInfoPanel /> */}
     </div>
   )
 }
-

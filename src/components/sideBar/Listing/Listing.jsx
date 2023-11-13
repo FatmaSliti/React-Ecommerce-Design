@@ -33,16 +33,17 @@ function Listing() {
     }
 
     return (
-        <div className={styles.list}>
-            {/* <h1>Listing</h1> */}
-            <section>
-                <ProductList data={data} visibleProducts={visibleProducts} />
+        <div className={styles.listingContainer}>
+            <h1>Listing</h1>
+            <div className={styles.list}>
+                <section>
+                    <ProductList data={data} visibleProducts={visibleProducts} />
 
-                {visibleProducts < data.length && (
-                    <button onClick={loadMore}>Show More ... </button>
-                )}
-            </section>
-
+                    {visibleProducts < data.length && (
+                        <button onClick={loadMore}>Show More ... </button>
+                    )}
+                </section>
+            </div>
         </div>
     )
 }

@@ -44,7 +44,7 @@ const Menu = () => {
             <div className={styles.element}>
                 <img src={support} alt="" />
                 <li>
-                    <Link to="/">Support</Link>
+                    <Link to="/support">Support</Link>
                 </li>
             </div>
             <div className={styles.element}>
@@ -52,7 +52,13 @@ const Menu = () => {
                 <li>
                     <Link to="">Settings</Link>
                 </li>
-            </div> 
+            </div>
+            <div className={styles.element}>
+                <img src={settings} alt="" />
+                <li>
+                    <Link to='/signin'>Sign In</Link>
+                </li>
+            </div>
         </ul>
     );
 };
