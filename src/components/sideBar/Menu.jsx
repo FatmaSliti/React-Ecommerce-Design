@@ -53,12 +53,12 @@ const Menu = () => {
                     <Link to="">Settings</Link>
                 </li>
             </div>
-            <div className={styles.element}>
+            {/* <div className={styles.element}>
                 <img src={settings} alt="" />
                 <li>
                     <Link to='/signin'>Sign In</Link>
                 </li>
-            </div>
+            </div> */}
         </ul>
     );
 };

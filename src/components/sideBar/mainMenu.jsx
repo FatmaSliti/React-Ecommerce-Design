@@ -10,7 +10,9 @@ import SignIn from '../Logout/SignIn'
 import SignUp from '../Logout/SignUp'
 
 const router = createBrowserRouter([
-    { path: '/', element: <RootLayout /> },
+    // { path: '/', element: <RootLayout /> },
+    { path: '/', element: <SignIn /> },
+    { path: '/root', element: <RootLayout /> },
     { path: '/Profile', element: <Profile /> },
     { path: '/listing', element: <Listing /> },
     { path: '/myCart', element: <Profile /> },

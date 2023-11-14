@@ -87,8 +87,13 @@
 
 import styles from './Support.module.css';
 
+import supportImage from '../../assets/support.jpg'
+
 const SupportForm = () => {
     return (
+        <div className={styles.PageContainer}>
+        <div className={styles.support}>
+            <img src={supportImage} alt="" />
         <div className={styles.supportContainer}>
             <h1 style={{ textAlign: 'center', color: '#8cbce3' }}>Support</h1>
             <div className={styles.container}>
@@ -158,8 +163,11 @@ const SupportForm = () => {
                 </div>
             </div>
         </div>
+
+        </div>
+
+        </div>
     );
 }
 
 export default SupportForm;
-
