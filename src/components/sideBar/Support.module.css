@@ -9,25 +9,30 @@
     margin: 0 100px;
     background-color: #0056b3;
     border-radius: 8px;
+    padding: 0 20px;
 }
 
 .support img {
     width: 50%;
     flex: 1;
     height: 100vh;
+    border-radius: 8px;
 }
 
 .supportContainer {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 0 20px 20px;
     flex: 1;
+
 }
 
 .container {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
+
+    border-radius: 8px;
 }
 
 .row {
