@@ -38,7 +38,6 @@ function Listing() {
             <div className={styles.list}>
                 <section>
                     <ProductList data={data} visibleProducts={visibleProducts} />
-
                     {visibleProducts < data.length && (
                         <button onClick={loadMore}>Show More ... </button>
                     )}
