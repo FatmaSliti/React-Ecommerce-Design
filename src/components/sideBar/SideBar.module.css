@@ -1,4 +1,4 @@
-.sidebar {
+/* .sidebar {
     padding: 50px 20px;
 
     display: grid;
@@ -27,4 +27,53 @@
     color: #E5613E;
 
     margin-top: 20rem;
+} */
+
+
+/* Sidebar Component CSS */
+/* .sidebar {
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    transition: all 0.3s ease;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: -250px;
 }
+
+.open {
+    left: 0;
+}
+
+.closed {
+    left: -250px;
+}
+
+.toggle-btn {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.main-content {
+    transition: all 0.3s ease;
+}
+
+.collapsed {
+    margin-left: 0;
+}
+
+Adjust the styles as per your design and requirements */
+
+/* .tgswitch {
+    color: rgb(23, 21, 21);
+    width: 50;
+    height: 50;
+    padding: 15px;
+}
+
+.sidenav {
+    color: rgb(53, 44, 44);
+    width: 200;
+    
+} */
