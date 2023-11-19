@@ -1,206 +1,26 @@
-// import logo from '../../assets/Logo (1).png'
-// import Menu from './Menu'
-// import styles from './SideBar.module.css'
+import logo from '../../assets/Logo (1).png'
+import Menu from './Menu'
+import styles from './SideBar.module.css'
 
-// import logout from '../../assets/Logout.png'
+import logout from '../../assets/Logout.png'
 
-// import { Link } from 'react-router-dom';
-// const SideBar = () => {
-//     return (
-//         <div className={styles.sidebar}>
-//             <img src={logo} alt="logo image" />
-//             <Menu />
-//             <Link to='/signIn'>
-//                 <div className={styles.logout}>
-//                     <img src={logout} alt="" />
-//                     Logout
-//                 </div>
-//             </Link>
-//         </div>
-//     )
-// }
-
-// export default SideBar
-
-
-
-
-
-
-
-
-
-// import React from "react";
-// import "@trendmicro/react-sidenav/dist/react-sidenav.css";
-
-// import SideNav, {
-//     Toggle,
-//     Nav,
-//     NavItem,
-//     NavIcon,
-//     NavText
-// } from "@trendmicro/react-sidenav";
-
-// class SideNavBar extends React.Component {
-//     constructor(props) {
-//         super(props);
-//         this.state = {
-//             isVisible: true
-//         };
-//     }
-
-//     render() {
-//         return (
-//             <SideNav expanded={this.state.isVisible}>
-//                 <SideNav.Toggle
-//                     onClick={() => {
-//                         this.setState({ isVisible: !this.state.isVisible });
-//                     }}
-//                 />
-//                 <SideNav.Nav defaultSelected="home">
-//                     <NavItem eventKey="home">
-//                         <NavIcon>
-//                             <i className="fa fa-fw fa-home" style={{ fontSize: "1.75em" }} />
-//                         </NavIcon>
-//                         <NavText>Home</NavText>
-//                     </NavItem>
-//                     <NavItem eventKey="placed orders">
-//                         <NavIcon>
-//                             <i
-//                                 className="fa fa-fw fa-line-chart"
-//                                 style={{ fontSize: "1.75em" }}
-//                             />
-//                         </NavIcon>
-//                         <NavText>placed orders</NavText>
-//                     </NavItem>
-//                 </SideNav.Nav>
-//             </SideNav>
-//         );
-//     }
-// }
-
-// export default SideNavBar;
-
-
-
-import React from "react";
-import "@trendmicro/react-sidenav/dist/react-sidenav.css";
-
-import SideNav, {
-    Toggle,
-    Nav,
-    NavItem,
-    NavIcon,
-    NavText
-} from "@trendmicro/react-sidenav";
-
-class SideNavBar extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            isVisible: true
-        };
-    }
-
-    render() {
-        const navStyle = {
-            background: "white",
-            color: "gray"
-        };
-
-        const navItemStyle = {
-            color: "black"
-        };
-
-        return (
-            <SideNav style={navStyle} expanded={this.state.isVisible}>
-                <SideNav.Toggle
-                    onClick={() => {
-                        this.setState({ isVisible: !this.state.isVisible });
-                    }}
-                />
-                <SideNav.Nav defaultSelected="home">
-                    <NavItem eventKey="home">
-                        <NavIcon>
-                            <i className="fa fa-fw fa-home" style={{ fontSize: "1.75em", color: "black" }} />
-                        </NavIcon>
-
-                        <NavText style={navItemStyle}>Home</NavText>
-                    </NavItem>
-                    <NavItem eventKey="placed orders">
-                        <NavIcon>
-                            <i
-                                className="fa fa-fw fa-line-chart"
-                                style={{ fontSize: "1.75em" }}
-                            />
-                        </NavIcon>
-                        <NavText style={navItemStyle}>Placed Orders</NavText>
-                    </NavItem>
-                </SideNav.Nav>
-            </SideNav>
-        );
-    }
+import { Link } from 'react-router-dom';
+const SideBar = () => {
+    return (
+        <div className={styles.sidebar}>
+            <img src={logo} alt="logo image" />
+            <Menu />
+            <Link to='/signIn'>
+                <div className={styles.logout}>
+                    <img src={logout} alt="" />
+                    Logout
+                </div>
+            </Link>
+        </div>
+    )
 }
 
-export default SideNavBar;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React, { useState } from 'react';
-// import '@trendmicro/react-sidenav/dist/react-sidenav.css';
-// import SideNav, { Toggle, Nav, NavItem, NavIcon, NavText } from '@trendmicro/react-sidenav';
-
-// const SideNavBar = () => {
-//     const [isVisible, setIsVisible] = useState(true);
-
-//     return (
-//         <SideNav
-//             expanded={isVisible}
-//             style={{ backgroundColor: '#f5f5f5', width: isVisible ? '250px' : '64px' }}
-//         >
-//             <Toggle onClick={() => setIsVisible(!isVisible)} />
-
-//             <Nav defaultSelected="home">
-//                 <NavItem eventKey="home">
-//                     <NavIcon>
-//                         <i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} />
-//                     </NavIcon>
-//                     <NavText>Home</NavText>
-//                 </NavItem>
-
-//                 <NavItem eventKey="placed orders">
-//                     <NavIcon>
-//                         <i className="fa fa-fw fa-line-chart" style={{ fontSize: '1.75em' }} />
-//                     </NavIcon>
-//                     <NavText>Placed Orders</NavText>
-//                 </NavItem>
-//                 {/* Add more NavItems as needed */}
-//             </Nav>
-//         </SideNav>
-//     );
-// };
-
-
-
-
+export default SideBar
 
 
 
